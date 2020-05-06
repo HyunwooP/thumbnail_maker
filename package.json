@@ -1,0 +1,30 @@
+{
+  "name": "thumbnail_maker",
+  "version": "1.0.0",
+  "description": "video thumbnail maker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HyunwooP/thumbnail_maker.git"
+  },
+  "keywords": [
+    "video",
+    "image",
+    "mp4",
+    "m3u8",
+    "thumbnail"
+  ],
+  "author": "HyunwooPark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HyunwooP/thumbnail_maker/issues"
+  },
+  "homepage": "https://github.com/HyunwooP/thumbnail_maker#readme",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "0.0.1-security"
+  }
+}
