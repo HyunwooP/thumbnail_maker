@@ -3,14 +3,19 @@
 ## only exports wanted thumbnail
 ### author: Hyunwoo.Park
 
-* guide is here https://github.com/fluent-ffmpeg/node-fluent-ffmpeg
+* guide here https://github.com/fluent-ffmpeg/node-fluent-ffmpeg
+* this module config guide
 
-* this module has config guide
 ```
+**count** = exports image count
+**filename** = exports image name
+**outputPath** = exports image output path
+**size** = exports image size
+
 config = {
-    count: config.count || 1, // what do you want count?
-    filename: `${config.filename}-at-%s-seconds.png` || 'thumbnail-at-%s-seconds.png',
-    folder: '/want/output/file/path',
-    size: config.size || '320x240'
+    count: number,
+    filename: string,
+    outputPath: string,
+    size: string
 }
 ```
