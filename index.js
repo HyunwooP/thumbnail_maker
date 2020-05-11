@@ -1,5 +1,8 @@
 'use strict';
 
-var maker = require('./lib/maker');
+const maker = require('./lib/maker');
 
-module.exports = maker(path, config);
+maker({
+
+});
+module.exports = maker;
