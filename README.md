@@ -8,6 +8,14 @@
 * this module config guide
 
 ```
+라이브 스트리밍 파일은 도데체 어떻게 썸네일을 축출 할 수가 있는가?
+
+그래서 시작하였다.
+축출해보자!
+(ffmepg 별도 설치 필요!!)
+```
+
+```
 note
 
 can you use aws s3 bucket upload
@@ -31,4 +39,9 @@ config = {
     isS3Upload: boolean,
     bucketName: string
 }
+
+maker(config)
+.then(file => {
+    console.log(file);
+});
 ```
